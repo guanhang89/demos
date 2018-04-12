@@ -20,7 +20,6 @@ public class AgeSearch {
             bufferedReader = new BufferedReader(new InputStreamReader(new FileInputStream(file), "UTF-8"));
             String line;
             while ((line = bufferedReader.readLine()) != null) {
-//                System.out.println(line);
                 if (!"".equals(line)) {
                     String[] split = line.split(",");
                     if (split.length == 3) {
