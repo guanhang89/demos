@@ -6,7 +6,7 @@ import java.util.List;
 
 public class AgeSearch {
 
-    private List<Person> personList = new ArrayList<>();
+    private List<Person> personList = new ArrayList<Person>();
 
     /**
      *

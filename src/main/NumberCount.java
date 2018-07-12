@@ -9,7 +9,7 @@ public class NumberCount {
     private List<Integer> list;
 
     public List<Integer> ListcountNumberStr(String str, int num) {
-        list = new ArrayList<>();
+        list = new ArrayList<Integer>();
         char[] chars = str.toCharArray();
         for(int i =0;i<chars.length;) {
             if (chars[i] > '0' && chars[i] < '9') {
